@@ -1,0 +1,125 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ic_launcher-web.png
+* proguard-project.txt
+* studio/
+* studio/.idea/
+* studio/.idea/.name
+* studio/.idea/compiler.xml
+* studio/.idea/copyright/
+* studio/.idea/copyright/profiles_settings.xml
+* studio/.idea/misc.xml
+* studio/.idea/modules.xml
+* studio/.idea/vcs.xml
+* studio/.idea/workspace.xml
+* studio/app/
+* studio/app/build.gradle
+* studio/app/src/
+* studio/app/src/main/
+* studio/app/src/main/AndroidManifest.xml
+* studio/app/src/main/java/
+* studio/app/src/main/java/ro/
+* studio/app/src/main/java/ro/pub/
+* studio/app/src/main/java/ro/pub/cs/
+* studio/app/src/main/java/ro/pub/cs/systems/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/controller/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/controller/NetworkServiceAdapter.java
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/general/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/general/Constants.java
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/general/Utilities.java
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/model/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/model/Message.java
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/model/NetworkService.java
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/networkservicediscoveryoperations/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/networkservicediscoveryoperations/ChatClient.java
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/networkservicediscoveryoperations/ChatServer.java
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/networkservicediscoveryoperations/NetworkServiceDiscoveryOperations.java
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/view/
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/view/ChatActivity.java
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/view/ChatConversationFragment.java
+* studio/app/src/main/java/ro/pub/cs/systems/pdsd/lab09/chatservice/view/ChatNetworkServiceFragment.java
+* studio/app/src/main/res/
+* studio/app/src/main/res/drawable-hdpi/
+* studio/app/src/main/res/drawable-hdpi/ic_launcher.png
+* studio/app/src/main/res/drawable-mdpi/
+* studio/app/src/main/res/drawable-mdpi/frame_border.xml
+* studio/app/src/main/res/drawable-mdpi/frame_border_received_message.xml
+* studio/app/src/main/res/drawable-mdpi/frame_border_sent_message.xml
+* studio/app/src/main/res/drawable-mdpi/ic_launcher.png
+* studio/app/src/main/res/drawable-xhdpi/
+* studio/app/src/main/res/drawable-xhdpi/ic_launcher.png
+* studio/app/src/main/res/drawable-xxhdpi/
+* studio/app/src/main/res/drawable-xxhdpi/ic_launcher.png
+* studio/app/src/main/res/layout/
+* studio/app/src/main/res/layout/activity_chat.xml
+* studio/app/src/main/res/layout/fragment_chat_conversation.xml
+* studio/app/src/main/res/layout/fragment_chat_network_service.xml
+* studio/app/src/main/res/layout/network_service.xml
+* studio/app/src/main/res/menu/
+* studio/app/src/main/res/menu/chat.xml
+* studio/app/src/main/res/values-v11/
+* studio/app/src/main/res/values-v11/styles.xml
+* studio/app/src/main/res/values-v14/
+* studio/app/src/main/res/values-v14/styles.xml
+* studio/app/src/main/res/values-w820dp/
+* studio/app/src/main/res/values-w820dp/dimens.xml
+* studio/app/src/main/res/values/
+* studio/app/src/main/res/values/colors.xml
+* studio/app/src/main/res/values/dimens.xml
+* studio/app/src/main/res/values/strings.xml
+* studio/app/src/main/res/values/styles.xml
+* studio/build.gradle
+* studio/gradle/
+* studio/gradle/wrapper/
+* studio/gradle/wrapper/gradle-wrapper.jar
+* studio/gradle/wrapper/gradle-wrapper.properties
+* studio/gradlew
+* studio/gradlew.bat
+* studio/local.properties
+* studio/settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
